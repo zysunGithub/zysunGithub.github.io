@@ -53,3 +53,5 @@ categories: linux
 [□"$HOME"□==□"$MAIL"□]
  ↑       ↑  ↑       ↑
 ```
+参考文献：
+http://linux.vbird.org/linux_basic/0340bashshell-scripts.php
