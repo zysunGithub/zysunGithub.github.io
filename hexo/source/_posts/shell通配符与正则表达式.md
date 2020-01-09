@@ -7,6 +7,7 @@ categories: linux
 # 通配符（Wildcard）
 bash本身没有提供正则表达式，在脚本中使用表达式的是一些命令和软件包，比如sed/awk等。
 shell脚本中表达式使用的是通配符。Shell 中可以使用的通配符如下：
+<!--more-->
 <style>
 table th:first-of-type {
 	width: 100px;
