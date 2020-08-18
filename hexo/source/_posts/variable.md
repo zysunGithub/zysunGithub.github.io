@@ -4,7 +4,7 @@ date: 2020-08-05 22:16:53
 tags: shell
 categories: linux
 ---
-# shell变量
+### shell变量
 <!--more-->
 ```
 #!/bin/bash
@@ -31,3 +31,24 @@ echo ${hello} # A B C D
 echo $hello    # A B C D   , 只有一个空白字符
 echo "$hello"  # A B C    D, 保留了原有空白字符
 ```
+### export
+export目的是为了将本地变量传递给子进程
+export的变量传递方向是：父进程----->子进程
+
+### 命令行参数
+$0就是脚本文件的名字
+$1 是第一个参数
+$2 为第2 个...
+
+```
+获取最后一个参数
+args=$#            # Number of args passed.
+lastarg=${!args}
+# Note: This is an *indirect reference* to $args ...
+
+# Or:       lastarg=${!#}          
+# This is an *indirect reference* to the $# variable.
+# Note that lastarg=${!$#} doesn't work.
+```
+参见：
+http://tldp.org/LDP/abs/html/othertypesv.html
