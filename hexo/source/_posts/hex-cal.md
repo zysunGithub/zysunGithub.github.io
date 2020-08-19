@@ -1,8 +1,8 @@
 ---
 title: 一种16进制计算方法
 date: 2020-07-17 00:22:46
-tags: [shell]
-categories: [Linux]
+tags: shell
+categories: linux
 ---
 # 以查看/proc/2206/maps下的so大小为例进行说明，计算方法如下
 ```
